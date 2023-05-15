@@ -96,7 +96,7 @@ describe('Apply filters', () => {
 });
 
 
-describe('template spec', () => {
+describe('grade list test', () => {
   beforeEach(()=>{
     cy.visit('https://goal-dev.mdx.ac.uk/accounts/login/?next=/')
     cy.get('input[name = "username"]').type('Abed_Kharobi')
